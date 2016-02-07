@@ -1,13 +1,11 @@
 //---------------------------------------------------------------------------------------
-//  FILE:   X2Item_ModExample_Weapon.uc
-//  AUTHOR:  Ryan McFall
+//  FILE:   X2Item_LightSword_Weapon.uc
+//  AUTHOR:  Victor Blanco
 //           
-//	Template classes define new game mechanics & items. In this example a weapon template
-//  is created that can be used to add a new type of weapon to the XCom arsenal
+// 	Defines the template for a lightsaber sword with extra armor damage
+//   	
 //  
-//---------------------------------------------------------------------------------------
-//  Copyright (c) 2016 Firaxis Games, Inc. All rights reserved.
-//---------------------------------------------------------------------------------------
+
 class X2Item_LightSword_Weapon extends X2Item; 
 
 //Template classes are searched for by the game when it starts. Any derived classes have their CreateTemplates function called
